@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Rayen Harabi, développeur Full Stack intéressé par le développement web, les solutions IA et le DevOps.">
+  <meta name="theme-color" content="#090d18">
+  <title>Rayen Harabi — Développeur Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Rayen Harabi, accueil"><span class="brand-mark">R</span><span>rayen<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#experience">Expérience</a>
+        <a class="nav-contact" href="#contact">Me contacter <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="accueil">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="pulse"></span> Ouvert aux opportunités</div>
+        <p class="eyebrow">BONJOUR, JE SUIS</p>
+        <h1>Rayen <span class="gradient-text">Harabi.</span></h1>
+        <h2>Développeur <span class="typed-word" id="typedWord">Full Stack</span></h2>
+        <p class="hero-description">Je conçois des applications web utiles, modernes et sécurisées. J’aime transformer les idées en solutions concrètes, du frontend au backend.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projets">Découvrir mes projets <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Lharbi11" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span class="social-separator"></span><a href="mailto:rayenharabi767@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>rayen.dev</span></div>
+          <div class="code-content">
+            <p><span class="code-muted">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Rayen Harabi'</span>,</p>
+            <p class="indent"><span class="code-blue">role</span>: <span class="code-green">'Full Stack'</span>,</p>
+            <p class="indent"><span class="code-blue">focus</span>: [</p>
+            <p class="indent2"><span class="code-green">'Web Development'</span>,</p>
+            <p class="indent2"><span class="code-green">'Application Security'</span>,</p>
+            <p class="indent2"><span class="code-green">'AI & DevOps'</span></p>
+            <p class="indent">],</p>
+            <p class="indent"><span class="code-blue">learning</span>: <span class="code-purple">true</span></p>
+            <p>};<span class="cursor">▍</span></p>
+          </div>
+          <div class="floating-tag tag-top"><span>✦</span> Créatif & curieux</div>
+          <div class="floating-tag tag-bottom"><span class="tag-dot"></span> Toujours en apprentissage</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#apropos"><span></span> DÉFILER POUR EXPLORER</a>
+    </section>
+
+    <section class="section container" id="apropos">
+      <div class="section-heading reveal"><p class="eyebrow">01 — QUI SUIS-JE ?</p><h2>À propos de <span class="gradient-text">moi</span></h2></div>
+      <div class="about-grid">
+        <div class="about-main panel reveal">
+          <p class="about-lead">Je suis un développeur passionné par la création de produits numériques et la résolution de problèmes.</p>
+          <p>Mon parcours en informatique m’a permis de travailler sur des applications web, des API et des services backend. J’apprécie particulièrement le développement Full Stack, la sécurité applicative et l’apprentissage de nouvelles technologies.</p>
+          <p>Je souhaite continuer à progresser, intégrer des solutions d’intelligence artificielle dans mes projets et découvrir davantage les pratiques DevOps.</p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact-card panel"><span class="fact-icon">⌘</span><div><strong>Full Stack</strong><small>Frontend & Backend</small></div></div>
+          <div class="fact-card panel"><span class="fact-icon">◎</span><div><strong>Orienté solutions</strong><small>Code propre et utile</small></div></div>
+          <div class="fact-card panel"><span class="fact-icon">↗</span><div><strong>En progression</strong><small>IA, sécurité & DevOps</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="competences">
+      <div class="section-heading reveal"><p class="eyebrow">02 — MON SAVOIR-FAIRE</p><h2>Compétences <span class="gradient-text">techniques</span></h2><p class="section-subtitle">Les outils et technologies que j’utilise pour construire mes projets.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card panel reveal"><div class="skill-title"><span class="skill-symbol purple">⌘</span><h3>Frontend</h3></div><div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Angular</span><span>Bootstrap</span></div></article>
+        <article class="skill-card panel reveal"><div class="skill-title"><span class="skill-symbol blue">⌁</span><h3>Backend</h3></div><div class="chips"><span>Java</span><span>Spring Boot</span><span>PHP</span><span>Laravel</span><span>REST API</span></div></article>
+        <article class="skill-card panel reveal"><div class="skill-title"><span class="skill-symbol green">◫</span><h3>Bases de données</h3></div><div class="chips"><span>MySQL</span><span>PostgreSQL</span><span>SQLite</span></div></article>
+        <article class="skill-card panel reveal"><div class="skill-title"><span class="skill-symbol orange">⚙</span><h3>Outils & méthodes</h3></div><div class="chips"><span>Git</span><span>GitHub</span><span>Docker</span><span>Postman</span><span>Swagger</span><span>Maven</span></div></article>
+      </div>
+      <div class="languages panel reveal"><strong>Langues</strong><span>Français <small>Bien</small></span><span>Anglais <small>Bien</small></span><span>Allemand <small>B1 · en progression vers B2</small></span></div>
+    </section>
+
+    <section class="section container" id="projets">
+      <div class="section-heading reveal"><p class="eyebrow">03 — CE QUE JE CONSTRUIS</p><h2>Projets <span class="gradient-text">sélectionnés</span></h2><p class="section-subtitle">Quelques réalisations et travaux représentatifs de mon parcours.</p></div>
+      <div class="project-filters reveal" role="group" aria-label="Filtrer les projets"><button class="filter active" data-filter="all">Tous</button><button class="filter" data-filter="backend">Backend</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="3d">3D & AR</button></div>
+      <div class="projects-grid">
+        <article class="project-card panel reveal" data-category="backend">
+          <div class="project-visual visual-auth"><div class="visual-icon">🔐</div><div class="visual-lines"><i></i><i></i><i></i></div><span class="visual-label">AUTH SERVICE</span></div>
+          <div class="project-body"><div class="project-meta"><span>BACKEND · STAGE</span><span>01</span></div><h3>Microservice d’authentification sécurisé</h3><p>Développement d’un service backend avec gestion des utilisateurs, authentification JWT et contrôle d’accès par rôles.</p><div class="chips"><span>Spring Boot</span><span>Java 21</span><span>Spring Security</span><span>JWT</span><span>PostgreSQL</span></div><a class="project-link" href="https://github.com/Lharbi11" target="_blank" rel="noreferrer">Voir sur GitHub <span>↗</span></a></div>
+        </article>
+        <article class="project-card panel reveal" data-category="web">
+          <div class="project-visual visual-cms"><div class="cms-window"><div class="cms-top"></div><div class="cms-content"><i></i><i></i><i></i><b></b></div></div><span class="visual-label">MINI CMS</span></div>
+          <div class="project-body"><div class="project-meta"><span>WEB · ACADÉMIQUE</span><span>02</span></div><h3>Mini-CMS de gestion de contenu</h3><p>Application de gestion d’articles avec catégories, tags, opérations CRUD et validation des formulaires.</p><div class="chips"><span>Laravel</span><span>PHP</span><span>Blade</span><span>SQLite</span></div><a class="project-link" href="https://github.com/Lharbi11" target="_blank" rel="noreferrer">Voir sur GitHub <span>↗</span></a></div>
+        </article>
+        <article class="project-card panel reveal" data-category="3d">
+          <div class="project-visual visual-ar"><div class="ar-cube"><span></span></div><span class="visual-label">AUGMENTED REALITY</span></div>
+          <div class="project-body"><div class="project-meta"><span>3D · EXPLORATION</span><span>03</span></div><h3>Exploration d’un moteur en réalité augmentée</h3><p>Concept de projet Unity visant à afficher un moteur 3D, sélectionner ses composants et découvrir le rôle de chaque pièce.</p><div class="chips"><span>Unity</span><span>C#</span><span>Vuforia</span><span>3D</span></div><span class="project-note">Projet académique / concept</span></div>
+        </article>
+        <article class="project-card panel reveal" data-category="web">
+          <div class="project-visual visual-vectorys"><div class="browser-art"><div></div><div></div><div></div><b></b></div><span class="visual-label">WEB DEVELOPMENT</span></div>
+          <div class="project-body"><div class="project-meta"><span>WEB · STAGE</span><span>04</span></div><h3>Développement web — Vectorys</h3><p>Participation à la création et à l’amélioration d’interfaces web, intégration frontend et contribution au backend.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div><span class="project-note">Expérience professionnelle</span></div>
+        </article>
+      </div>
+      <p class="projects-footnote">Les liens GitHub pointent vers mon profil. Ajoute les URL de dépôts spécifiques dès que les projets sont publiés.</p>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow">04 — MON PARCOURS</p><h2>Expériences & <span class="gradient-text">formation</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">JAN. 2026 — JAN. 2026</div><div class="timeline-marker"></div><div class="timeline-content panel"><span class="timeline-type">STAGE · BACKEND</span><h3>Stagiaire en développement backend</h3><h4>Iliade Consulting</h4><p>Travail sur un microservice de gestion des utilisateurs et d’authentification sécurisé avec Spring Boot, Spring Security, JWT et PostgreSQL. Utilisation de Postman et Swagger pour tester et documenter les API.</p><div class="chips"><span>Spring Boot</span><span>JWT</span><span>PostgreSQL</span><span>Postman</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">JAN. 2025 — FÉV. 2025</div><div class="timeline-marker"></div><div class="timeline-content panel"><span class="timeline-type">STAGE · DÉVELOPPEMENT WEB</span><h3>Stagiaire en développement web</h3><h4>Vectorys</h4><p>Participation à la réalisation d’interfaces web en HTML, CSS et JavaScript, contribution au backend PHP/MySQL, tests, correction de bugs et amélioration de fonctionnalités.</p><div class="chips"><span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">FORMATION</div><div class="timeline-marker"></div><div class="timeline-content panel"><span class="timeline-type">ÉTUDES SUPÉRIEURES</span><h3>Informatique — Développement web et multimédia</h3><h4>ISET Sidi Bouzid</h4><p>Formation en informatique, développement d’applications, programmation et technologies web.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">FORMATION</div><div class="timeline-marker"></div><div class="timeline-content panel"><span class="timeline-type">ENSEIGNEMENT SECONDAIRE</span><h3>Lycée Farhat Hached</h3><h4>Radès</h4></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">05 — PARLONS DE VOTRE PROJET</p><h2>Une idée à réaliser ?<br><span class="gradient-text">Construisons-la ensemble.</span></h2>
+        <p>Vous cherchez un développeur motivé ou souhaitez échanger autour d’un projet ? N’hésitez pas à me contacter.</p>
+        <a class="button button-primary contact-button" href="mailto:rayenharabi767@gmail.com?subject=Contact%20depuis%20votre%20portfolio">Discutons ensemble <span>↗</span></a>
+        <div class="contact-details"><a href="mailto:rayenharabi767@gmail.com">rayenharabi767@gmail.com</a><button id="copyEmail" type="button">Copier l’email ⧉</button><a href="https://github.com/Lharbi11" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container"><a class="brand" href="#accueil"><span class="brand-mark">R</span><span>rayen<span class="brand-dot">.</span></span></a><p>Conçu et développé par Rayen Harabi · <span id="year"></span></p><a href="#accueil">Retour en haut ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copié !</div>
+  <script src="script.js"></script>
+</body>
+</html>
